@@ -1,0 +1,48 @@
+# Archivos del sistema operativo
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Archivos de sistema
+*~                  # Archivos temporales (ej: file.txt~)
+.nfs*               # Archivos temporales de NFS
+.Trash-*            # Papelera
+
+# Archivos de caché
+.cache/
+.cache/
+.thumbnails/
+
+# Archivos temporales de editores
+*.swp               # Archivos swap de Vim
+*.swo
+.directory          # Directorios Dolphin en KDE
+
+# Archivos de registros y logs
+*.log
+*.pid
+*.seed
+
+
+# Archivos de editores de código
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Archivos de dependencias
+node_modules/
+vendor/
+
+# Carpetas de compilación
+dist/
+build/
+out/
+
+# Archivos de entornos virtuales
+.env
+.venv/
+
+#python
+__pycache__/
+
+#java
+*.class
