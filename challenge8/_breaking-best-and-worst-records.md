@@ -7,6 +7,8 @@ scores = [12, 24, 10, 24]
 
 Scores are in the same order as the games played. She tabulates her results as follows:
 
+![alt text](image1.jpg)
+
 ```
                                      Count
     Game  Score  Minimum  Maximum   Min Max
@@ -55,7 +57,7 @@ The second line contains  space-separated integers describing the respective val
 
 The diagram below depicts the number of times Maria broke her best and worst records throughout the season:
 
-image
+![alt text](image2.jpg)
 
 She broke her best record twice (after games **2** and **7**) and her worst record four times (after games **1**, **4**, **6**, and **8**), so we print **2 4** as our answer. Note that she did not break her record for best score during game **3**, as her score during that game was not strictly greater than her best record at the time.
 
@@ -74,6 +76,6 @@ She broke her best record twice (after games **2** and **7**) and her worst reco
 
 The diagram below depicts the number of times Maria broke her best and worst records throughout the season:
 
-image
+![alt text](image3.jpg)
 
 She broke her best record four times (after games **1**, **2**, **3**, and **9**) and her worst record zero times (no score during the season was lower than the one she earned during her first game), so we print **4 0** as our answer.
